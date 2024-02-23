@@ -2,12 +2,63 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue</title>
+    <!-- <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, virtual-keyboard=resizes-content"
+    /> -->
+    <!-- <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, virtual-keyboard=resizes-visual"
+    /> -->
+    <!-- <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, virtual-keyboard=overlays-content"
+    /> -->
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no shrink-to-fit=no"
+    />
+
+    <meta name="theme-color" content="#fbfcf8" />
+    <!-- <meta
+      http-equiv="Cache-Control"
+      content="no-store, no-cache, must-revalidate, private"
+    /> -->
+    <link rel="shortcut icon" type="image/ico" href="./Logo.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>MedLeb - Pharmacy Service</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div class="h-{100dvh}" id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Include this in your HTML file (e.g., index.html) -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("./sw.jsx") // Adjust the path to match the actual location of your sw.js file
+          .then((registration) => {
+            // console.log(
+            //   "Service Worker registered with scope:",
+            //   registration.scope
+            // );
+          })
+          .catch((error) => {
+            console.error("Service Worker registration failed:", error);
+          });
+      }
+    </script>
+
+    <!-- Add this script tag in your HTML file -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jsonwebtoken@8.5.1/dist/jsonwebtoken.browser.js"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
   </body>
 </html>

@@ -1,0 +1,141 @@
+ {
+  "id": 1,
+   "drugImage": "image url or image data",
+   "drugName": "Panadol",
+   "ingredients": "Paracetamol",
+   "price": "1,5710",
+   "dosage": "500",
+   "dosageUnit": "mg/ml/g",
+   "presentation": "30",
+   "form": "tablet",
+   "route": "oral",
+   "type": "brand/generic/biological",
+   "country": "sweden/france/spain",
+   "agent": "Omnipharmma",
+   "subsidyPercentage": "10%",
+   "stratum": "E1",
+   "atc": "12e3",
+   "responsibleParty": "Abbvie Ltd",
+   "responsiblePartyCountry": "Spain",
+   "manufacturer": "Bayer Hispania",
+   "manufacturerCountry": "we",
+   "cargoShippingTerms": "CIF",
+   "priceForeign": 212,
+   "priceUSD": 10,
+   "currencyForeign": "DKK",
+   "priceLB": 175000,
+   "pillPriceLB": 212,
+   "registrationNumber": "1212",
+   "registrationDate": "2023-11-21",
+   "reviewDate": "2023-11-15",
+   "mohCode": 1212
+ }
+
+
+
+{
+  "drugs": [
+    {
+      "currencyForeign": "USD",
+      "type": "Generic",
+      "responsibleParty": "Ferring GmbH",
+      "responsiblePartyCountry": "Sweden",
+      "manufacturer": "Bayer Hispania",
+      "manufacturingCountry": "USA",
+      "cargoShippingTerms": "FOB",
+      "mohCode": "saad",
+      "registrationNumber": "asdasd",
+      "priceForeign": "412",
+      "convertToUSD": "41.00",
+      "convertToLBP": "36900.00",
+      "drugName": "asdasda",
+      "reviewDate": "2023-12-29",
+      "registrationDate": "2023-12-07",
+      "ingredientsAndstrength": "asdasdad",
+      "form": "asdasd",
+      "primaryContainerPackage": "asdasd",
+      "agent": "Pharmaline",
+      "atcCode": "wew",
+      "doseForm": "Elixir",
+      "drugRoute": "Topical scalp",
+      "parentaralCheckbox": true,
+      "scoreCheckbox": true,
+      "dosageValueN": "33",
+      "dosageValueD": "3dwe",
+      "dosageUnitD": "IU/g",
+      "dosageUnitN": "IU/g",
+      "atcRelatedIngredients": "wewe",
+      "presentationContentQty": "3223",
+      "presentationContainerQty": "2323",
+      "prescriptionAndDispensingCondition": "Dispensed for the prescription duration",
+      "douanes": "5%",
+      "notes": "ewrwer",
+      "chronicCheckbox": true,
+      "mentalHealthCheckbox": true,
+      "acuteCheckbox": true,
+      "essentialCheckbox": true,
+      "id": 1
+    }
+  ]
+}
+
+
+
+
+{
+  "drugs": [
+    {
+      "id": 1,
+      "currencyForeign": "USD",
+      "type": "Generic",
+      "responsibleParty": "Ferring GmbH",
+      "responsiblePartyCountry": "Sweden",
+      "manufacturer": "Bayer Hispania",
+      "manufacturingCountry": "USA",
+      "cargoShippingTerms": "FOB",
+      "mohCode": "saad",
+      "registrationNumber": "asdasd",
+      "priceForeign": "412",
+      "convertToUSD": "41.00",
+      "convertToLBP": "36900.00",
+      "drugName": "asdasda",
+      "reviewDate": "2023-12-29",
+      "registrationDate": "2023-12-07",
+      "ingredientsAndstrength": "asdasdad",
+      "form": "asdasd",
+      "primaryContainerPackage": "asdasd",
+      "agent": "Pharmaline",
+      "atcCode": "wew",
+      "doseForm": "Elixir",
+      "drugRoute": "Topical scalp",
+      "parentaralCheckbox": true,
+      "scoreCheckbox": true,
+      "dosageValueN": "33",
+      "dosageValueD": "3dwe",
+      "dosageUnitD": "IU/g",
+      "dosageUnitN": "IU/g",
+      "atcRelatedIngredients": "wewe",
+      "presentationContentQty": "3223",
+      "presentationContainerQty": "2323",
+      "prescriptionAndDispensingCondition": "Dispensed for the prescription duration",
+      "douanes": "5%",
+      "notes": "ewrwer",
+      "chronicCheckbox": true,
+      "mentalHealthCheckbox": true,
+      "acuteCheckbox": true,
+      "essentialCheckbox": true
+    },
+
+    {
+      "drugsimages": {
+        "id": 1,
+        "frontSide": "",
+        "backSide": "",
+        "rightSide": "",
+        "leftSide": "",
+        "upSide": "",
+        "downSide": ""
+      }
+    }
+  ]
+}
